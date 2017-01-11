@@ -66,3 +66,7 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+war {
+    archiveName = 'target/ROOT.war'
+}
