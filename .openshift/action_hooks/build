@@ -15,3 +15,6 @@ cd $OPENSHIFT_REPO_DIR
 export GRAILS_OPTS="-Xmx512m -Xms256m -XX:MaxPermSize=256m"
 gradle build
 grails -Dgrails.work.dir=$OPENSHIFT_DATA_DIR.grails prod war
+
+rm -rf $OPENSHIFT_DATA_DIR/grails-3.1.14
+rm -rf $OPENSHIFT_DATA_DIR/gradle-2.13
