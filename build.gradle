@@ -68,5 +68,7 @@ assets {
 }
 
 war {
-    archiveName = 'webapps/ROOT.war'
+    archiveName = 'ROOT.war'
+    destinationDir = file("$rootDir/webapps")
+
 }
