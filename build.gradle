@@ -68,5 +68,5 @@ assets {
 }
 
 war {
-    archiveName = 'target/ROOT.war'
+    archiveName = 'webapps/ROOT.war'
 }
