@@ -21,7 +21,6 @@
     .side-menu ,.child_menu{
         padding: 0px !important;
     }
-    
 
     </style>
 </head>
