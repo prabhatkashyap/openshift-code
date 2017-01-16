@@ -23,6 +23,9 @@
     <asset:stylesheet src="semantic/icon.css"/>
     <asset:stylesheet src="semantic/sidebar.css"/>
     <asset:stylesheet src="semantic/transition.css"/>
+    <asset:stylesheet src="semantic/modal.css"/>
+    <asset:stylesheet src="semantic/dropdown.css"/>
+    <asset:stylesheet src="semantic/dimmer.css"/>
 
 
     <style type="text/css">
@@ -133,10 +136,15 @@
     <asset:javascript src="semantic/visibility.js"/>
     <asset:javascript src="semantic/sidebar.js"/>
     <asset:javascript src="semantic/transition.js"/>
+    <asset:javascript src="semantic/modal.js"/>
+    <asset:javascript src="semantic/dropdown.js"/>
+    <asset:javascript src="semantic/dimmer.js"/>
 
     <script>
         $(document)
                 .ready(function () {
+                    $('.ui.modal').modal()
+                    console.log("ssss");
 
                     // fix menu when passed
                     $('.masthead')
@@ -209,7 +217,7 @@
                 <a class="item">Careers</a>
 
                 <div class="right item">
-                    <a class="ui inverted button">Log in</a>
+                    <a class="ui inverted button" id="login">Log in</a>
                     <a class="ui inverted button">Sign Up</a>
                 </div>
             </div>
@@ -325,6 +333,30 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="ui modal">
+    <i class="close icon"></i>
+
+    <div class="header">
+        Modal Title
+    </div>
+
+    <div class="image content">
+        <div class="image">
+            An image can appear on left or an icon
+        </div>
+
+        <div class="description">
+            A description can appear on the right
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="ui button">Cancel</div>
+
+        <div class="ui button">OK</div>
     </div>
 </div>
 

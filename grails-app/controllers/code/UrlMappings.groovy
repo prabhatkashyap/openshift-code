@@ -8,7 +8,7 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-        
+
 
         "/"(view: "/semantic/index")
         "500"(view: '/error')
