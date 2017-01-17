@@ -326,6 +326,134 @@
                 <img src="http://semantic-ui.com//images/avatar2/small/kristy.png" class="ui circular image"
                      style="width: 110px !important;">
             </div>
+            <h4 class="ui horizontal header divider">
+                <a href="#">Example</a>
+            </h4>
+
+            <div class="ui card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer transition hidden">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button">Add Friend</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="http://semantic-ui.com/images/avatar2/large/rachel.png">
+                </div>
+
+                <div class="content">
+                    <div class="header">Rachel Maddaw</div>
+
+                    <div class="meta">
+                        <a class="group">Pundit</a>
+                    </div>
+                </div>
+
+                <div class="extra content">
+                    <a class="right floated created">
+                        Joined in 1998
+                    </a>
+                    <a class="friends">
+                        <i class="user icon"></i>
+                        22 Friends
+                    </a>
+                </div>
+            </div>
+
+            <div class="no example">
+                <h4 class="ui header">
+                    <a href="#">Accordion</a>
+                </h4>
+
+                <div class="ui vertical fluid accordion menu">
+                    <div class="item">
+                        <a class="active title">
+                            <i class="dropdown icon"></i>
+                            Size
+                        </a>
+
+                        <div class="active content">
+                            <div class="ui form">
+                                <div class="grouped fields">
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="size" value="small">
+                                            <label>Small</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="size" value="medium">
+                                            <label>Medium</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="size" value="large">
+                                            <label>Large</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="size" value="x-large">
+                                            <label>X-Large</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a class="title">
+                            <i class="dropdown icon"></i>
+                            Colors
+                        </a>
+
+                        <div class="content">
+                            <div class="ui form">
+                                <div class="grouped fields">
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="color">
+                                            <label>Red</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="color">
+                                            <label>Orange</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="color">
+                                            <label>Green</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="color">
+                                            <label>Blue</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui toggle checkbox">
+                <input type="checkbox" name="public" tabindex="0" class="hidden">
+                <label>Make my dog's profile public</label>
+            </div>
         </div>
     </div>
 
