@@ -9,24 +9,24 @@
     <!-- Site Properties -->
     <title>Homepage - Semantic</title>
     <asset:stylesheet href="semantic/semantic.css"/>
-    <asset:stylesheet href="semantic/reset.css"/>
-    <asset:stylesheet href="semantic/site.css"/>
-    <asset:stylesheet href="semantic/container.css"/>
-    <asset:stylesheet href="semantic/grid.css"/>
-    <asset:stylesheet href="semantic/header.css"/>
-    <asset:stylesheet href="semantic/image.css"/>
-    <asset:stylesheet href="semantic/menu.css"/>
-    <asset:stylesheet href="semantic/divider.css"/>
-    <asset:stylesheet href="semantic/dropdown.css"/>
-    <asset:stylesheet href="semantic/segment.css"/>
-    <asset:stylesheet href="semantic/button.css"/>
-    <asset:stylesheet href="semantic/list.css"/>
+    %{--<asset:stylesheet href="semantic/reset.css"/>--}%
+    %{--<asset:stylesheet href="semantic/site.css"/>--}%
+    %{--<asset:stylesheet href="semantic/container.css"/>--}%
+    %{--<asset:stylesheet href="semantic/grid.css"/>--}%
+    %{--<asset:stylesheet href="semantic/header.css"/>--}%
+    %{--<asset:stylesheet href="semantic/image.css"/>--}%
+    %{--<asset:stylesheet href="semantic/menu.css"/>--}%
+    %{--<asset:stylesheet href="semantic/divider.css"/>--}%
+    %{--<asset:stylesheet href="semantic/dropdown.css"/>--}%
+    %{--<asset:stylesheet href="semantic/segment.css"/>--}%
+    %{--<asset:stylesheet href="semantic/button.css"/>--}%
+    %{--<asset:stylesheet href="semantic/list.css"/>--}%
     <asset:stylesheet href="semantic/icon.css"/>
-    <asset:stylesheet href="semantic/sidebar.css"/>
-    <asset:stylesheet href="semantic/transition.css"/>
-    <asset:stylesheet href="semantic/modal.css"/>
-    <asset:stylesheet href="semantic/dropdown.css"/>
-    <asset:stylesheet href="semantic/dimmer.css"/>
+    %{--<asset:stylesheet href="semantic/sidebar.css"/>--}%
+    %{--<asset:stylesheet href="semantic/transition.css"/>--}%
+    %{--<asset:stylesheet href="semantic/modal.css"/>--}%
+    %{--<asset:stylesheet href="semantic/dropdown.css"/>--}%
+    %{--<asset:stylesheet href="semantic/dimmer.css"/>--}%
 
 
     <style type="text/css">
@@ -134,12 +134,12 @@
 
     </style>
     <asset:javascript src="jquery-2.2.0.min.js"/>
-    <asset:javascript src="semantic/visibility.js"/>
-    <asset:javascript src="semantic/sidebar.js"/>
-    <asset:javascript src="semantic/transition.js"/>
-    <asset:javascript src="semantic/modal.js"/>
-    <asset:javascript src="semantic/dropdown.js"/>
-    <asset:javascript src="semantic/dimmer.js"/>
+    %{--<asset:javascript src="semantic/visibility.js"/>--}%
+    %{--<asset:javascript src="semantic/sidebar.js"/>--}%
+    %{--<asset:javascript src="semantic/transition.js"/>--}%
+    %{--<asset:javascript src="semantic/modal.js"/>--}%
+    %{--<asset:javascript src="semantic/dropdown.js"/>--}%
+    %{--<asset:javascript src="semantic/dimmer.js"/>--}%
     <asset:javascript src="semantic/semantic.js"/>
 
     <script>
@@ -208,10 +208,12 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui inverted vertical masthead center aligned segment"
+         style="background-image: url('/assets/semantic/background/8.jpg');background-repeat: no-repeat;min-height: 600px;
+         background-size: 100% 100%;">
 
         <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
+            <div class="ui large secondary inverted pointing menu" style="border-width:0px !important; ">
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
@@ -228,11 +230,11 @@
         </div>
 
         <div class="ui text container">
-            <h1 class="ui inverted header">
+            <h1 class="ui header" style="margin-top: 130px !important;">
                 Imagine-a-Company
             </h1>
 
-            <h2>Do whatever you want when you want to.</h2>
+            <h2 style="color: black">Do whatever you want when you want to.</h2>
 
             <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
         </div>
@@ -341,7 +343,7 @@
 </div>
 
 <div class="ui modal">
-    <i class="close icon"></i>
+    <i class="close icon" style="top: -0.5rem;right: -0.5rem;color: black !important;"></i>
 
     <div class="header">
         Modal Title
