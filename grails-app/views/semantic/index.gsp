@@ -133,7 +133,7 @@
 
 
     </style>
-    <asset:javascript src="jquery.min.js"/>
+    <asset:javascript src="jquery-2.2.0.min.js"/>
     <asset:javascript src="semantic/visibility.js"/>
     <asset:javascript src="semantic/sidebar.js"/>
     <asset:javascript src="semantic/transition.js"/>
@@ -165,11 +165,10 @@
                             .sidebar('attach events', '.toc.item')
                     ;
 
-                })
-                .on('click', "#login", function () {
-                    console.log("ssss");
-                    $('.ui.modal').modal()
-                })
+                });
+        $(document).on('click', ".login", function () {
+            $('.ui.modal').modal('show')
+        })
         ;
     </script>
 </head>
@@ -186,7 +185,7 @@
 
         <div class="right menu">
             <div class="item">
-                <a class="ui button">Log in</a>
+                <a class="ui button login">Log in</a>
             </div>
 
             <div class="item">
@@ -222,7 +221,7 @@
                 <a class="item">Careers</a>
 
                 <div class="right item">
-                    <a class="ui inverted button" id="login">Log in</a>
+                    <a class="ui inverted button login">Log in</a>
                     <a class="ui inverted button">Sign Up</a>
                 </div>
             </div>
