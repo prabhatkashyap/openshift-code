@@ -8,24 +8,25 @@
 
     <!-- Site Properties -->
     <title>Homepage - Semantic</title>
-    <asset:stylesheet src="semantic/reset.css"/>
-    <asset:stylesheet src="semantic/site.css"/>
-    <asset:stylesheet src="semantic/container.css"/>
-    <asset:stylesheet src="semantic/grid.css"/>
-    <asset:stylesheet src="semantic/header.css"/>
-    <asset:stylesheet src="semantic/image.css"/>
-    <asset:stylesheet src="semantic/menu.css"/>
-    <asset:stylesheet src="semantic/divider.css"/>
-    <asset:stylesheet src="semantic/dropdown.css"/>
-    <asset:stylesheet src="semantic/segment.css"/>
-    <asset:stylesheet src="semantic/button.css"/>
-    <asset:stylesheet src="semantic/list.css"/>
-    <asset:stylesheet src="semantic/icon.css"/>
-    <asset:stylesheet src="semantic/sidebar.css"/>
-    <asset:stylesheet src="semantic/transition.css"/>
-    <asset:stylesheet src="semantic/modal.css"/>
-    <asset:stylesheet src="semantic/dropdown.css"/>
-    <asset:stylesheet src="semantic/dimmer.css"/>
+    <asset:stylesheet href="semantic/semantic.css"/>
+    <asset:stylesheet href="semantic/reset.css"/>
+    <asset:stylesheet href="semantic/site.css"/>
+    <asset:stylesheet href="semantic/container.css"/>
+    <asset:stylesheet href="semantic/grid.css"/>
+    <asset:stylesheet href="semantic/header.css"/>
+    <asset:stylesheet href="semantic/image.css"/>
+    <asset:stylesheet href="semantic/menu.css"/>
+    <asset:stylesheet href="semantic/divider.css"/>
+    <asset:stylesheet href="semantic/dropdown.css"/>
+    <asset:stylesheet href="semantic/segment.css"/>
+    <asset:stylesheet href="semantic/button.css"/>
+    <asset:stylesheet href="semantic/list.css"/>
+    <asset:stylesheet href="semantic/icon.css"/>
+    <asset:stylesheet href="semantic/sidebar.css"/>
+    <asset:stylesheet href="semantic/transition.css"/>
+    <asset:stylesheet href="semantic/modal.css"/>
+    <asset:stylesheet href="semantic/dropdown.css"/>
+    <asset:stylesheet href="semantic/dimmer.css"/>
 
 
     <style type="text/css">
@@ -132,19 +133,19 @@
 
 
     </style>
-    <asset:javascript src="jquery-2.2.0.min.js"/>
+    <asset:javascript src="jquery.min.js"/>
     <asset:javascript src="semantic/visibility.js"/>
     <asset:javascript src="semantic/sidebar.js"/>
     <asset:javascript src="semantic/transition.js"/>
     <asset:javascript src="semantic/modal.js"/>
     <asset:javascript src="semantic/dropdown.js"/>
     <asset:javascript src="semantic/dimmer.js"/>
+    <asset:javascript src="semantic/semantic.js"/>
 
     <script>
+
         $(document)
                 .ready(function () {
-                    $('.ui.modal').modal()
-                    console.log("ssss");
 
                     // fix menu when passed
                     $('.masthead')
@@ -164,6 +165,10 @@
                             .sidebar('attach events', '.toc.item')
                     ;
 
+                })
+                .on('click', "#login", function () {
+                    console.log("ssss");
+                    $('.ui.modal').modal()
                 })
         ;
     </script>
